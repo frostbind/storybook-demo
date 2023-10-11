@@ -8,13 +8,15 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "storybook-generate": "sb-rn-get-stories",
-    "storybook-watch": "sb-rn-watcher"
+    "storybook-watch": "sb-rn-watcher",
+    "tailwind": "npx tailwindcss -i ./src/tailwind-input.css -o ./src/output.css --watch"
   },
   "dependencies": {
     "expo": "^49.0.13",
     "expo-status-bar": "~1.6.0",
     "react": "18.2.0",
-    "react-native": "0.72.5"
+    "react-native": "0.72.5",
+    "tailwindcss": "^3.3.3"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

@@ -9,7 +9,7 @@ const MyButtonMeta = {
     onPress: { action: 'pressed the button' },
   },
   args: {
-    text: 'Hello world',
+    text: 'Storybook Demo is here',
   },
   decorators: [
     (Story) => (
@@ -26,6 +26,6 @@ export const Basic = {};
 
 export const AnotherExample = {
   args: {
-    text: 'Another example',
+    text: 'Stories',
   },
 };
